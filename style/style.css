@@ -61,11 +61,12 @@ main{
 .players{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap:30px;
+    grid-gap:30px;
 }
 .player{
     display:flex;
     align-items: center;
+    box-shadow: 10px 10px 5px lightgray;
     
 }
 .player img{
@@ -141,6 +142,23 @@ main{
     border-radius: 10px;
     color:#FF4A60;
     }
+/* extra section  */
+.add{
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    padding:10px 30px;
+    background-color: #562EFF;
+    margin-left:20px;
+    border-color:#562EFF;
+}
+.number{
+    margin-top:15px;
+    border-radius: 5px;
+    border:1px solid grey;
+    padding:10px 30px;
+    margin-left:20px;
+}
     /* meadia querie  */
 
 @media only screen and (max-width:688px) {
